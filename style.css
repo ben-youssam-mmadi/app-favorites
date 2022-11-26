@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    background: url(img/gigi.gif) no-repeat fixed;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+.titreh1{
+    text-align: center;
+    font-size: 2em;
+}
+.titreh1 h1{
+    margin-top: 0;
+}
+.text-gras{
+    font-weight: bold;
+}
+.text-style{
+    color: darkblue;
+    font-weight: bold;
+}
+.text-rouge{
+    color: #d01f25;
+    font-weight: bold;
+}
+/* ************************ PAGE INDEX ************************* */
+/* ************ HEADER ************* */
+header{
+    width: 100%;
+    background-color: white;
+    background-size: 30%;
+    padding: 20px 0;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container-img{
+    width: 300px;
+    height: 70px;
+}
+.header-container-infos a{
+    display: block;
+}
+.header-container-img img{
+    width: 100%;
+    height: 100%;
+}
+.header-container-infos{
+    margin-right: 30px;
+}
+/* ************ SOUS HEADER ************* */
+.sous-header{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+}
+.sous-header-text{
+    padding-top: 100px;
+}
+
+/* ************ CONTAIN ************* */
+#contain{
+    margin: 100px 100px;
+    padding: 30px 20px;
+}
+
+      /* ******** APPS ********* */
+      .container-app{
+        margin-bottom: 100px;
+        background-color: rgba(0, 0, 0, 0.709);
+        padding: 20px 30px;
+        border-radius: 60px;
+        color: white;
+      }
+      #spotify-container{
+        display: flex;
+        justify-content: space-between;
+      }
+      #netflix-container{
+        display: flex;
+        justify-content: space-between;
+      }
+      #instagram-container{
+        display: flex;
+        justify-content: space-between;
+      }
+    .app-righbox-text{
+        margin: 0 70px;
+        text-align: center;
+        font-size: 1.1em;
+    }
+    .app-righbox-boutton{
+        text-align: center;
+        margin-top: 70px;
+        font-size: 1.1em;
+    }
+    .app-righbox-boutton a{
+        background-color: darkblue;
+        color: white;
+        padding: 15px 25px;
+        border-radius: 30px;
+    }
+    .app-leftbox{
+        width: 35%;
+    }
+    .app-righbox{
+        width: 63%;
+        vertical-align: top;
+    }
+    .app-leftbox-img{
+        width: 100%;
+    }
+    .app-leftbox-img img{
+        width: 100%;
+    }
+
+/* ************************ PAGE APP ************************* */
+.containn{
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.boxx{
+    width: 48%;
+    vertical-align: top;
+}
+.tel{
+    display: flex;
+    justify-content: center;
+}
+.avis{
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.421);
+    padding: 20px;
+    border-radius: 30px;
+}
+.avis-text{
+    font-size: 1.5em;
+}
+/* ****************** TELEPHONE ****************** */
+/* *********** EXTERIEUR ********** */
+.telephone{
+    width: 310px;
+    height: 640px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    background: #fff;
+}
+.telephone3{
+    background: black;
+}
+.telephone-div-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.haut-parleur{
+    width: 50px;
+    height: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 30px 0;
+}
+.ecran{
+    width: 290px;
+    height: 520px;
+    border: 1px solid #ccc;
+    background-color: black;
+    padding: 0 10px;
+}
+.ecran3{
+    background-color: white;
+    color: black;
+}
+.bouton-home{
+    margin-top: 5px;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ccc;border-radius: 50%;
+    bottom: 10px;
+}
+.containn{
+    color: white;
+}
+/* *********** INTERIEUR APP1 ********** */
+.sim p{
+    margin: 0;
+    vertical-align: top;
+    margin-left: -19px;
+}
+.heure p{
+    margin: 0;
+}
+.pourcentage p{
+    margin: 0;
+}
+.ligne-haut{
+    display: flex;
+    justify-content: space-between;
+}
+.sim div, .sim p{
+    display: inline-block;
+}
+.barre{
+    width: 2px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.baree3{
+    background-color: black;
+}
+.barre1{
+    height: 5px;
+}
+.barre2{
+    height: 7px;
+    margin-left: -15px;
+}
+.barre3{
+    height: 9px;
+    margin-left: -15px;
+}
+.barre4{
+    height: 11px;
+    margin-left: -15px;
+}
+.musique{
+    width: 48%;
+    display: inline-block;
+    height: 46px;
+    background-color: rgb(47, 46, 46);
+    margin-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.musique div{
+    display: inline-block;
+    vertical-align: top;
+}
+.musique-img{
+    width: 33%;
+    height: 100%;
+}
+.musique-text{
+    width: 61%;
+    height: 100%;
+    margin-top: 4px;
+}
+.musique-text-nom{
+    font-size: 0.7em;
+    color: #ccc;
+}
+.musique-text p{
+    margin: 0;
+    font-size: 0.6em;
+}
+.musique-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 0px 0px 4px;
+}
+.dern-sorties-son{
+    display: inline-block;
+    width: 90px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.dern-sorties-son-img{
+    width: 100%;
+    height: 90px;
+}
+.dern-sorties-son-img img{
+    width: 100%;
+    height: 100%;
+}
+.dern-sorties-son-info p{
+    font-size: 0.6em;
+    margin-bottom: 0;
+}
+.dern-sorties-son-info .musique-text-nom{
+    margin-top: 2px;
+}
+#son-choisi{
+    margin-top: 30px;
+    vertical-align: bottom;
+    width: 100;
+    height: 45px;
+    border-radius: 6px;
+}
+
+.son-choisi-son-img{
+    width: 35px;
+    height: 35px;
+}
+.son-choisi-son-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.son-choisi-son-info{
+    margin-top: 3px;
+    font-size: 0.9em;
+}
+.son-choisi-son-info p{
+    margin: 0;
+}
+.son-choisi-son-info .musique-text-nom{
+    margin-top: 3px;
+}
+.son-choisi-son-btn{
+    margin-right: 10px;
+    margin-top: 8px;
+}
+#son-chovechuva{
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #908640;
+    border-radius: 6px;
+}
+#son-carolina{
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #CCD858;
+    border-radius: 6px;
+}
+#son-nedine{
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCC020;
+    border-radius: 6px;
+}
+#son-comeonamyhouse{
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #96476E;
+    border-radius: 6px;
+}
+#son-laboheme{
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #BC7C67;
+    border-radius: 6px;
+}
+#son-alabase{
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #BC7131;
+    border-radius: 6px;
+}
+#son-confession{
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #D34160;
+    border-radius: 6px;
+}
+#son-magnum{
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #9C938E;
+    border-radius: 6px;
+}
+#son-gangstaparadise{
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #63CAFD;
+    border-radius: 6px;
+}
+
+/* *********** INTERIEUR APP2 ********** */
+#ligne-insta{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+#ligne-insta div{
+    vertical-align: top;
+}
+#ligne-insta-logo{
+    width: 100px;
+    height: 50px;
+}
+#ligne-insta-logo img{
+    width: 100%;
+    height: 100%;
+}
+#ligne-insta-icons{
+    display: flex;
+    align-items: center;
+    margin-right: -25px;
+}
+#ligne-insta-icons i{
+    margin-right: 25px;
+    font-size: 19px;
+}
+#ligne-story{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+}
+.ligne-story-story img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.ligne-story-story p{
+    font-size: 0.6em;
+    text-align: center;
+}
+.ligne-story-story2 img{
+    outline: 3px solid #B211CA;
+    outline-offset: 2px;
+}
+#insta-reel-info div{
+    display: inline-block;
+    vertical-align: top;
+}
+#insta-reel-info-img img{
+    width: 25px;
+    height: 23px;
+    border-radius: 50%;
+}
+#insta-reel-info-text{
+    font-size: 0.6em;
+}
+#insta-reel-info-text p{
+    margin: 0;
+}
+#insta-reel-video video{
+    width: 100%;
+    height: 300px;
+}
+#insta-reel-video{
+    margin: 0 -10px;
+    background-color: black;
+}
+#insta-reel-avis{
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+#insta-reel-avis i{
+    margin-right: 10px;
+}
+/* *********** INTERIEUR APP3 ********** */
+.ligne-haut2{
+    height: 1px;
+}
+#netflix-haut{
+    background: url(img/app2-img/mercredinetflix.webp);
+    background-size: cover;
+    margin: 0 -10px;
+    padding-top: 10px;
+    height: 335px;
+}
+#sansnom1{
+    margin: 0 20px;
+    margin-top: 15px;
+}
+#netflix-haut-ligne1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#netflix-ligne1-logo img{
+    width: 20px;
+    height: 30px;
+}
+#netflix-ligne1-right{
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+#netflix-ligne1-right img{
+    width: 30px;
+    height: 30px;
+}
+#netflix-ligne1-right i{
+    margin-top: 5px;
+}
+#netflix-haut-ligne2{
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+#netflix-ligne3{
+    margin: 10px 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#netflix-ligne3 input{
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+#netflix-ligne3 div{
+    text-align: center;
+}
+#netflix-ligne3 div p{
+    font-size: 0.6em;
+    margin: 0;
+}
+#netflix-nouveaute p{
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+.nouveaute-img{
+    display: inline-block;
+    width: 31%;
+    height: 110px;
+}
+.nouveaute-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}

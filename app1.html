@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Spotify</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/d12de4cd94.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+    <body style="background: linear-gradient(#00d854, #26a055, #00722b);">
+        <header>
+            <div class="header-container">
+                <div class="header-container-img">
+                    <img src="img/fsociety.png" alt="">
+                </div>
+                <div class="titreh1">
+                    <h1>Spotify</h1>
+                </div>
+
+                <div class="header-container-infos">
+                    <a href="#"><i class="fa-solid fa-phone"></i> +33 6 21 04 5* **</a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i> ben-youssam.mmadi@laplateforme.io</a>
+                    <a href="https://github.com/ben-youssam-mmadi"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </header>
+        <div class="containn">
+
+            <div class="tel boxx">
+                <div class="telephone">
+
+                    <div class="telephone-div-center">
+                        <div class="haut-parleur"></div>
+                    </div>
+
+                    <div class="telephone-div-center">
+                        <div class="ecran">
+
+                            <div class="ligne-haut">
+                                <div class="sim">
+                                    <div class="sim-reseau">
+                                        <div class="barre barre1"></div>
+                                        <div class="barre barre2"></div>
+                                        <div class="barre barre3"></div>
+                                        <div class="barre barre4"></div>
+                                    </div>
+
+                                    <p>SYMA</p>
+                                </div>
+
+                                <div class="heure">
+                                    <p><span class="text-gras">08:03</span></p>
+                                </div>
+
+                                <div class="pourcentage">
+                                    <p>9  % <i class="fa-solid fa-battery-quarter"></i></p>
+                                </div>
+                            </div>
+
+                            <div id="spo-ligne">
+                                <h3>Bonjour Ben</h3>
+                            </div>
+                            <div id="musique-recente">
+
+                                <div class="musique" onclick="document.getElementById('chovechuva').play();  masquer_div('son-chovechuva'); opacity1('musique-recente'); opacity1('dern-sorties');">
+                                    <div class="musique-img">
+                                        <img src="img/app1-img/chovechuva.jpeg" alt="">
+                                    </div>
+                                    <div class="musique-text">
+                                        <p>Chove Chuva</p>
+                                        <p class="musique-text-nom">Jorge Ben Jor</p>
+                                    </div>
+                                </div>
+
+                                <div class="musique" onclick="document.getElementById('comeonamyhouse').play(); masquer_div('son-comeonamyhouse'); opacity1('musique-recente'); opacity1('dern-sorties')">
+                                    <div class="musique-img">
+                                        <img src="img/app1-img/téléchargement (1).jpeg" alt="">
+                                    </div>
+                                    <div class="musique-text">
+                                        <p>Come On-A My House</p>
+                                        <p class="musique-text-nom">Rosemary Clooney</p>
+                                    </div>
+                                </div>
+
+                                <div class="musique" onclick="document.getElementById('carolina').play();  masquer_div('son-carolina'); opacity1('musique-recente'); opacity1('dern-sorties')">
+                                    <div class="musique-img">
+                                        <img src="img/app1-img/téléchargement (2).jpeg" alt="">
+                                    </div>
+                                    <div class="musique-text">
+                                        <p>Carolina, Carol Bela</p>
+                                        <p class="musique-text-nom">Jorge Ben & Toquinho</p>
+                                    </div>
+                                </div>
+
+                                <div class="musique" onclick="document.getElementById('laboheme').play(); masquer_div('son-laboheme'); opacity1('musique-recente'); opacity1('dern-sorties')">
+                                    <div class="musique-img">
+                                        <img src="img/app1-img/labohemee.jpeg" alt="">
+                                    </div>
+                                    <div class="musique-text">
+                                        <p>La boheme</p>
+                                        <p class="musique-text-nom">Charles Aznavour</p>
+                                    </div>
+                                </div>
+
+                                <div class="musique" onclick="document.getElementById('alabase').play(); masquer_div('son-alabase'); opacity1('musique-recente'); opacity1('dern-sorties')">
+                                    <div class="musique-img">
+                                        <img src="img/app1-img/téléchargement (4).jpeg" alt="">
+                                    </div>
+                                    <div class="musique-text">
+                                        <p>A la base</p>
+                                        <p class="musique-text-nom">PLK</p>
+                                    </div>
+                                </div>
+
+                                <div class="musique" onclick="document.getElementById('confession').play();  masquer_div('son-confession'); opacity1('musique-recente'); opacity1('dern-sorties')">
+                                    <div class="musique-img">
+                                        <img src="img/app1-img/téléchargement (5).jpeg" alt="">
+                                    </div>
+                                    <div class="musique-text">
+                                        <p>Confession</p>
+                                        <p class="musique-text-nom">AV</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="spo-ligne2">
+                                <h3>Dernieres sorties populaires</h3>
+                            </div>
+                            <div id="dern-sorties">
+
+                                <div class="dern-sorties-son" onclick="document.getElementById('magnum').play();  masquer_div('son-magnum'); opacity1('musique-recente'); opacity1('dern-sorties')">
+                                    <div class="dern-sorties-son-img">
+                                        <img src="img/app1-img/sch.jpeg" alt="">
+                                    </div>
+                                    <div class="dern-sorties-son-info">
+                                        <p>Autobahn</p>
+                                        <p class="musique-text-nom">Alubum * SCH</p>
+                                    </div>
+                                </div>
+                                <div class="dern-sorties-son" onclick="document.getElementById('gangstaparadise').play();  masquer_div('son-gangstaparadise'); opacity1('musique-recente'); opacity1('dern-sorties')">
+                                    <div class="dern-sorties-son-img">
+                                        <img src="img/app1-img/letoguy.jpeg" alt="">
+                                    </div>
+                                    <div class="dern-sorties-son-info">
+                                        <p>Jusqu'aux étoiles</p>
+                                        <p class="musique-text-nom">Album * Leto et Guy2Bezbar</p>
+                                    </div>
+                                </div>
+                                <div class="dern-sorties-son" onclick="document.getElementById('nedine').play();  masquer_div('son-nedine'); opacity1('musique-recente'); opacity1('dern-sorties')">
+                                    <div class="dern-sorties-son-img">
+                                        <img src="img/app1-img/nedine.jpeg" alt="">
+                                    </div>
+                                    <div class="dern-sorties-son-info">
+                                        <p>Nedine - Single Version</p>
+                                        <p class="musique-text-nom">Chuck Berry</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div id="son-choisi">
+                                <div id="son-chovechuva" style="display: none;">
+                                    <div class="son-choisi-son-img">
+                                        <img src="img/app1-img/chovechuva.jpeg" alt="">
+                                    </div>
+                                    <div class="son-choisi-son-info">
+                                        <p>Chove Chuva</p>
+                                        <p class="musique-text-nom">Jorge Ben Jor</p>
+                                    </div>
+                                    <div class="son-choisi-son-btn">
+                                        <input type="button" value="X" onclick="fermer_div('son-chovechuva'); document.getElementById('chovechuva').pause(); opacity2('musique-recente'); opacity2('dern-sorties');">
+                                    </div>
+                                    <audio id="chovechuva" src="son/Jorge Ben - Chove Chuva (Áudio Oficial).mp3"></audio>
+                                </div>
+                                <div id="son-comeonamyhouse" style="display: none;">
+                                    <div class="son-choisi-son-img">
+                                        <img src="img/app1-img/téléchargement (1).jpeg" alt="">
+                                    </div>
+                                    <div class="son-choisi-son-info">
+                                        <p>Come On-A My House</p>
+                                        <p class="musique-text-nom">Rosemary Clooney</p>
+                                    </div>
+                                    <div class="son-choisi-son-btn">
+                                        <input type="button" value="X" onclick="fermer_div('son-comeonamyhouse'); document.getElementById('comeonamyhouse').pause(); opacity2('musique-recente'); opacity2('dern-sorties');">
+                                    </div>
+                                    <audio id="comeonamyhouse" src="son/Rosemary Clooney - Come On-A My House.mp3" ></audio>
+                                </div>
+                                <div id="son-carolina" style="display: none;">
+                                    <div class="son-choisi-son-img">
+                                        <img src="img/app1-img/téléchargement (2).jpeg" alt="">
+                                    </div>
+                                    <div class="son-choisi-son-info">
+                                        <p>Carolina, Carol Bela</p>
+                                        <p class="musique-text-nom">Jorge Ben & Toquinho</p>
+                                    </div>
+                                    <div class="son-choisi-son-btn">
+                                        <input type="button" value="X" onclick="fermer_div('son-carolina'); document.getElementById('carolina').pause(); opacity2('musique-recente'); opacity2('dern-sorties');">
+                                    </div>
+                                    <audio id="carolina" src="son/Carolina, Carol Bela.mp3" ></audio>
+                                </div>
+                                <div id="son-laboheme" style="display: none;">
+                                    <div class="son-choisi-son-img">
+                                        <img src="img/app1-img/labohemee.jpeg" alt="">
+                                    </div>
+                                    <div class="son-choisi-son-info">
+                                        <p>La boheme</p>
+                                        <p class="musique-text-nom">Charles Aznavour</p>
+                                    </div>
+                                    <div class="son-choisi-son-btn">
+                                        <input type="button" value="X" onclick="fermer_div('son-laboheme'); document.getElementById('laboheme').pause(); opacity2('musique-recente'); opacity2('dern-sorties');">
+                                    </div>
+                                    <audio id="laboheme" src="son/Charles Aznavour - La bohème (Official Lyrics Video).mp3" ></audio>
+                                </div>
+                                <div id="son-alabase" style="display: none;">
+                                    <div class="son-choisi-son-img">
+                                        <img src="img/app1-img/téléchargement (4).jpeg" alt="">
+                                    </div>
+                                    <div class="son-choisi-son-info">
+                                        <p>A la base</p>
+                                        <p class="musique-text-nom">PLK</p>
+                                    </div>
+                                    <div class="son-choisi-son-btn">
+                                        <input type="button" value="X" onclick="fermer_div('son-alabase'); document.getElementById('alabase').pause(); opacity2('musique-recente'); opacity2('dern-sorties');">
+                                    </div>
+                                    <audio id="alabase" src="son/PLK - A la base (clip officiel).mp3" ></audio>
+                                </div>
+                                <div id="son-confession" style="display: none;">
+                                    <div class="son-choisi-son-img">
+                                        <img src="img/app1-img/téléchargement (5).jpeg" alt="">
+                                    </div>
+                                    <div class="son-choisi-son-info">
+                                        <p>Confession</p>
+                                        <p class="musique-text-nom">AV</p>
+                                    </div>
+                                    <div class="son-choisi-son-btn">
+                                        <input type="button" value="X" onclick="fermer_div('son-confession'); document.getElementById('confession').pause(); opacity2('musique-recente'); opacity2('dern-sorties');">
+                                    </div>
+                                    <audio id="confession" src="son/AV - CONFESSION (OFFICIAL VIDEO).mp3" ></audio>
+                                </div>
+                                <div id="son-magnum" style="display: none;">
+                                    <div class="son-choisi-son-img">
+                                        <img src="img/app1-img/sch.jpeg" alt="">
+                                    </div>
+                                    <div class="son-choisi-son-info">
+                                        <p>Magnum</p>
+                                        <p class="musique-text-nom">Autobahn * SCH</p>
+                                    </div>
+                                    <div class="son-choisi-son-btn">
+                                        <input type="button" value="X" onclick="fermer_div('son-magnum'); document.getElementById('magnum').pause(); opacity2('musique-recente'); opacity2('dern-sorties');">
+                                    </div>
+                                    <audio id="magnum" src="son/Magnum SCH.mp3" ></audio>
+                                </div>
+                                <div id="son-gangstaparadise" style="display: none;">
+                                    <div class="son-choisi-son-img">
+                                        <img src="img/app1-img/letoguy.jpeg" alt="">
+                                    </div>
+                                    <div class="son-choisi-son-info">
+                                        <p>Gangsta Paradise</p>
+                                        <p class="musique-text-nom">Jusqu'aux étoiles * Leto & Guy</p>
+                                    </div>
+                                    <div class="son-choisi-son-btn">
+                                        <input type="button" value="X" onclick="fermer_div('son-gangstaparadise'); document.getElementById('gangstaparadise').pause(); opacity2('musique-recente'); opacity2('dern-sorties');">
+                                    </div>
+                                    <audio id="gangstaparadise" src="son/Gangsta Paradise.mp3" ></audio>
+                                </div>
+                                <div id="son-nedine" style="display: none;">
+                                    <div class="son-choisi-son-img">
+                                        <img src="img/app1-img/nedine.jpeg" alt="">
+                                    </div>
+                                    <div class="son-choisi-son-info">
+                                        <p>Nedine - Single Version</p>
+                                        <p class="musique-text-nom">Chuck Berry</p>
+                                    </div>
+                                    <div class="son-choisi-son-btn">
+                                        <input type="button" value="X" onclick="fermer_div('son-nedine'); document.getElementById('nedine').pause(); opacity2('musique-recente'); opacity2('dern-sorties');">
+                                    </div>
+                                    <audio id="nedine" src="son/Chuck Berry - Nadine.mp3"></audio>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="telephone-div-center">
+                        <div class="bouton-home"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="avis boxx">
+                <div class="titreh1">
+                    <h1>Pourquoi Spotify ?</h1>
+                </div>
+                <div class="avis-text">
+                    <p><span class="text-rouge">Spotify</span>  est l'une de mes applications préférés car c'est vraiment simple à utiliser. Il permet aux utilisateurs d'<span class="text-rouge">écouter toutes les pistes à tout moment</span>. L'organisation des listes de lecture ou la recherche de pistes individuelles, d'artistes et d'albums sont également très consise.</p>
+                    <p>Le service Spotify Premium est disponible à <span class="text-rouge">9,99€ par mois et sans engagement</span>.</p>
+                    <p>Si l'on ne devait citer qu'une plateforme, ce serait celle-ci : Spotify. <span class="text-rouge">Leader mondial du streaming musical</span>, ce géant suédois a réussi à conquérir le monde grâce à son catalogue vaste et varié, ses playlists et son système de recommandations ingénieux.</p>
+                    <p>Grace a Spotify j'ai pu découvrir des musiques que j'écoute tres souvent. Je vous laisse les écouter, si vous le voulez, avec le <span class="text-rouge">simulateur</span> a gauche</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
